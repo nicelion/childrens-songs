@@ -17,24 +17,24 @@ public class OldMacDonald2
     }
 
 
-    public static void hadA(String a) 
+    public static void hadA(String animal) 
     { 
-        System.out.println("And on that farm he had a " + a + ", E I E I O.");
+        System.out.println("And on that farm he had a " + animal + ", E I E I O.");
     }
 
 
-    public static void withA(String s) 
+    public static void withA(String sound) 
     { 
-        System.out.println("With a " + s + " " + s +  " here and a " + s + " " + s +  " there.");
-        System.out.println("Here a " + s + ", there a " + s + ", everywhere a " + s + ", " + s + ".");  
+        System.out.println("With a " + sound + " " + sound +  " here and a " + sound + " " + sound +  " there.");
+        System.out.println("Here a " + sound + ", there a " + sound + ", everywhere a " + sound + ", " + sound + ".");  
     }
 
     
-    public static void singIt(String a, String s) 
+    public static void singIt(String animal, String sound) 
     {
         eieio();
-        hadA(a);
-        withA(s);
+        hadA(animal);
+        withA(sound);
         eieio();
         System.out.println();
     }
