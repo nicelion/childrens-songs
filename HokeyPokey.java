@@ -11,7 +11,7 @@
  *	And you turn yourself around.
  *	That's what it's all about!
  *
- * @author  you
+ * @author  Ian Thompson
  * @version today
  */
 
