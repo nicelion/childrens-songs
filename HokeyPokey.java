@@ -21,11 +21,11 @@ public class HokeyPokey
     /**
      * sings lines 1 and 3 of each verse
      *
-        * @param part Body part to sing about in the verse
+     * @param part Body part to sing about in the verse
      */
     public static void putItIn(String part)
     {
-    
+        System.out.println("You put your " + part + " in");
         
     }
     
@@ -36,7 +36,7 @@ public class HokeyPokey
      */
     public static void putItOut(String part)
     {
-        
+        System.out.println("You put your " + part + " out");    
         
     }
         
@@ -60,9 +60,12 @@ public class HokeyPokey
     public static void singIt(String p) // sings all lines for a part p
     {
     
-    
-    
-    
+        putItIn(p);
+        putItOut(p);
+        putItIn(p);
+        shakeIt();
+        
+        System.out.println();
     }
 
 
