@@ -19,7 +19,7 @@ public class OldMacDonald2
     }
 
     /**
-     * 
+     * Prints the lyric in whick Old McDonald Had
      * 
      * @param animal The animal the Old MacDonald had.
      */
@@ -29,7 +29,7 @@ public class OldMacDonald2
     }
 
     /**
-     * 
+     * Prints the sound the animal makes
      * 
      * @param sound The sound said animal makes
      */
